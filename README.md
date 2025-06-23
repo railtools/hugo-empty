@@ -15,8 +15,7 @@ This is a minimal Hugo static site with a custom theme built from scratch, deplo
 
 ## 🚀 Deploy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hugo-blog?referralCode=dPr4mc)
-
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hugo?referralCode=dPr4mc)
 ---
 ## 🎨 Customization
 
