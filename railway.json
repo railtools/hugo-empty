@@ -1,0 +1,10 @@
+{
+  "name": "Hello Hugo",
+  "services": [
+    {
+      "name": "web",
+      "startCommand": "caddy file-server --root=public --listen=:3000",
+      "ports": [{ "port": 3000 }]
+    }
+  ]
+}

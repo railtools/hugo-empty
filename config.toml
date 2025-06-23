@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Minimal Hugo"
+relativeURLs = true
+canonifyURLs = true
+
+[outputs]
+home = ["HTML"]
+

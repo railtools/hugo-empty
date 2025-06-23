@@ -1,0 +1,25 @@
+# Hugo output
+/public/
+/resources/
+
+# Build output
+hugo_stats.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*~
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Node modules (if using any frontend tooling)
+node_modules/
+
+# Hugo modules cache (optional)
+hugo_cache/

@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ['go', 'caddy', 'curl']
+
+[phases.build]
+cmds = [
+    'curl -L https://github.com/gohugoio/hugo/releases/download/v0.147.0/hugo_extended_0.147.0_Linux-64bit.tar.gz | tar -xz',
+    './hugo mod tidy',
+    './hugo --baseURL="https://${RAILWAY_PUBLIC_DOMAIN}"'
+]
+
+[start]
+cmd = 'sh -c "caddy file-server --root=public --listen=:$PORT"'
